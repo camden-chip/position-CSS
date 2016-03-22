@@ -1,3 +1,38 @@
-body{
-	background-color: #FF0000; /*company colors/*
+ 
+body {
+	padding-top: 70px;
 }
+
+
+ nav {
+ 	background-color: #333333;
+ 	color: white;
+ 	position: fixed;
+ 	right: 0;
+ 	left: 0;
+ 	top: 0;
+ }
+ nav img:first-child {
+ 	float: left;
+ }
+ nav ul {
+ 	float: left;
+ }
+ nav li {
+ 	display: inline-block;
+ }
+ nav img:last-child {
+ 	float: right;
+ }
+ nav:after {
+ 	content: "";
+ 	display: block;
+ 	clear: both;
+ }
+ #social-bar {
+ 	height: 150px;
+ 	background-color: orange;
+ 	width: 50px;
+ 	position: fixed;
+ 	top: calc(50% - 75px);
+ }
